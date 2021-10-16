@@ -51,17 +51,17 @@ color sidebar_new       color142 color235
 color sidebar_unread    color142 color235
 color sidebar_highlight color208 color235
 
-color index         brightcolor223 color235 ~N
-color index         color167       color235 ~D
-color index         color240       color235 ~D
-color index         color240       color235 ~D~N
-color index_flags   color167       color235 ~D
-color index_author  color240       color235 ~D
-color index_subject color240       color235 ~D
-color index_flags   color142       color235 ~N
+color index_number  color240       color235
 color index_author  color214       color235 '.*'
 color index_subject color142       color235 '.*'
-color index_number  color240       color235
+color index         brightcolor223 color235 '~N'
+color index_flags   brightcolor142 color235 '~N'
+color index_author  brightcolor214 color235 '~N'
+color index_subject brightcolor142 color235 '~N'
+color index         color240       color235 '~D'
+color index_flags   color167       color235 '~D'
+color index_author  color240       color235 '~D'
+color index_subject color240       color235 '~D'
 
 color header color214 color235 "^From:"
 color header color208 color235 "^(To:|Cc:)"
