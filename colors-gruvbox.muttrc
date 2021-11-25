@@ -76,7 +76,7 @@ color compose security_both    color142 color235
 color compose security_none    color208 color235
 
 # URL
-color body color175 color235 "[a-z]{3,256}://[-a-zA-Z0-9@:%._\\+~#=/?&,]+"
+color body color175 color235 "[a-z]{3,256}://[-a-zA-Z0-9@:%._\\+~#=/?&,()]+"
 # email
 color body color208 color235 "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
 # mailto link
