@@ -88,6 +88,6 @@ color body color208 color235 "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
 # smileys
 color body color235 color214 "[;:]-[)(pPsS\|D]"
 # *bold*
-color body color229 color235 "\\*[-' A-Za-z0-9]+\\*"
+color body bold color229 color235 "(^|[[:space:][:punct:]])\\*[^*]+\\*([[:space:][:punct:]]|$)"
 
 # vim: filetype=neomuttrc
