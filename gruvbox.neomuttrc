@@ -39,6 +39,10 @@ color quoted2    color248 color235
 color quoted3    color108 color235
 color quoted4    color248 color235
 color quoted5    color108 color235
+color quoted6    color248 color235
+color quoted7    color108 color235
+color quoted8    color248 color235
+color quoted9    color108 color235
 color search     color235 color208
 color signature  color108 color235
 color status     color235 color246
